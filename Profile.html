@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <style>
+      .orange {
+        background-color: orange;
+        width: 600px;
+        height: 550px;
+        background: #ca7c4e;
+        background: -webkit-linear-gradient(
+          bottom left,
+          #eebe6c 0%,
+          #ca7c4e 100%
+        );
+        margin-left: 400px;
+        margin-top: 100px;
+      }
+      .middle-box {
+        position: absolute;
+        margin-top: 48px;
+        margin-left: 47px;
+        height: 450px;
+        width: 500px;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+        display: flex;
+        gap: 10px;
+      }
+      .image {
+        border-radius: 100px;
+        margin-left: 100px;
+        margin-top: 40px;
+      }
+      .boxes > div{
+        padding: 52px 51px;
+        gap: 2px;
+        margin-left: 50px;
+        margin-top: 1.5px;
+        text-align: center;
+        background: #F5E8DF;
+      }
+      .boxes > div:hover{
+        background: #E1CFC2;
+      }
+      .Jessica{
+        font-size: 16px;
+        font-weight: 900;
+        margin-left: 120px;
+        margin-top: 30px;
+        color: #ca7c4e;
+      }
+      .Visual{
+        font-size: 13px;
+        font-weight: 500;
+        margin-left: 135px;
+        margin-top: 5px;
+        color:#ca7c4e;
+      }
+      .btn1{
+        border:1px solid black;
+        padding: 13px;
+        width: 180px;
+        margin-left: 80px;
+        border-radius: 30px;
+        margin-top: 30px;
+        font-weight: 900;
+        font-size: 15px;
+        color: #ca7c4e;
+      }
+      .btn2{
+        border:1px solid black;
+        padding: 13px;
+        width: 180px;
+        margin-left: 80px;
+        border-radius: 30px;
+        margin-top: 20px;
+        font-weight: 900;
+        font-size: 15px;
+        color: #ca7c4e;
+      }
+      .btn1:hover{
+        background-color: #ca7c4e;
+        color: white;
+        border: 1px solid #ca7c4e;
+      }
+      .btn2:hover{
+        background-color: #ca7c4e;
+        color: white;
+        border: 1px solid #ca7c4e;
+      }
+      .text{
+        font-weight: 900;
+        font-family: 'Open Sans';
+        font-size: 19px;
+        color: #ca7c4e;
+      }
+      .font{
+        font-weight: 300;
+        font-family: 'Open Sans';
+        font-size: 19px;
+        color: #ca7c4e;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="orange">
+      <div class="middle-box">
+        <div>
+          <img
+            class="image"
+            src="https://100dayscss.com/codepen/jessica-potter.jpg"
+            alt=""
+          />
+          <div class="Jessica">Jessica Potter</div>
+          <div class="Visual">Visual Artist</div>
+          <button class="btn1">Follow</button><br>
+          <button class="btn2">Message</button>
+        </div>
+        <div class="boxes">
+            <div>
+                <div class="text">523</div>
+                <div class="font">Posts</div>
+            </div>
+            <div>
+                <div class="text">1387</div>
+                <div class="font">Likes</div>
+            </div>
+            <div>
+                <div class="text">146</div>
+                <div class="font">Followers</div>
+            </div>    
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
