@@ -4,129 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile</title>
-    <style>
-      :root {
-        --orange-color: #ca7c4e;
-        --orange-gradient-start: #eebe6c;
-        --orange-gradient-end: #ca7c4e;
-        --orange-background-hover: #E1CFC2;
-        --text-color: #ca7c4e;
-        --button-bg-hover: #ca7c4e;
-        --box-padding: 52px 51px;
-        --box-margin: 2px 50px;
-        --box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
-      }
-
-      .orange {
-        background-color: var(--orange-color);
-        width: 600px;
-        height: 550px;
-        background: var(--orange-color);
-        background: -webkit-linear-gradient(
-          bottom left,
-          var(--orange-gradient-start) 0%,
-          var(--orange-gradient-end) 100%
-        );
-        margin-left: 400px;
-        margin-top: 100px;
-      }
-
-      .middle-box {
-        position: absolute;
-        margin-top: 48px;
-        margin-left: 47px;
-        height: 450px;
-        width: 500px;
-        background: #fff;
-        border-radius: 5px;
-        box-shadow: var(--box-shadow);
-        display: flex;
-        gap: 10px;
-      }
-
-      .image {
-        border-radius: 100px;
-        margin-left: 100px;
-        margin-top: 40px;
-      }
-
-      .boxes > div {
-        padding: var(--box-padding);
-        gap: 2px;
-        margin: var(--box-margin);
-        text-align: center;
-        background: #F5E8DF;
-      }
-
-      .boxes > div:hover {
-        background: var(--orange-background-hover);
-      }
-
-      .Jessica {
-        font-size: 16px;
-        font-weight: 900;
-        margin-left: 120px;
-        margin-top: 30px;
-        color: var(--text-color);
-      }
-
-      .Visual {
-        font-size: 13px;
-        font-weight: 500;
-        margin-left: 135px;
-        margin-top: 5px;
-        color: var(--text-color);
-      }
-
-      .btn1 {
-        border: 1px solid black;
-        padding: 13px;
-        width: 180px;
-        margin-left: 80px;
-        border-radius: 30px;
-        margin-top: 30px;
-        font-weight: 900;
-        font-size: 15px;
-        color: var(--text-color);
-      }
-
-      .btn2 {
-        border: 1px solid black;
-        padding: 13px;
-        width: 180px;
-        margin-left: 80px;
-        border-radius: 30px;
-        margin-top: 20px;
-        font-weight: 900;
-        font-size: 15px;
-        color: var(--text-color);
-      }
-
-      .btn1:hover,
-      .btn2:hover {
-        background-color: var(--button-bg-hover);
-        color: white;
-        border: 1px solid var(--button-bg-hover);
-      }
-
-      .text {
-        font-weight: 900;
-        font-family: 'Open Sans';
-        font-size: 19px;
-        color: var(--text-color);
-      }
-
-      .font {
-        font-weight: 300;
-        font-family: 'Open Sans';
-        font-size: 19px;
-        color: var(--text-color);
-      }
-    </style>
+   <link rel="stylesheet" href="Profile.css">
   </head>
   <body>
     <div class="orange">
-      <div class="middle-box">
+      <div id="middle-box">
         <div>
           <img
             class="image"
@@ -139,15 +21,15 @@
           <button class="btn2">Message</button>
         </div>
         <div class="boxes">
-          <div>
+          <div class="main-div">
             <div class="text">523</div>
             <div class="font">Posts</div>
           </div>
-          <div>
+          <div class="main-div">
             <div class="text">1387</div>
             <div class="font">Likes</div>
           </div>
-          <div>
+          <div class="main-div">
             <div class="text">146</div>
             <div class="font">Followers</div>
           </div>
